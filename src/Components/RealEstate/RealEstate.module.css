@@ -1,0 +1,17 @@
+.class img{
+    width: 424px;
+    height: 150px;
+    background-attachment: fixed;
+    background-size: contain;
+  }
+  .class{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+  
+  
+  

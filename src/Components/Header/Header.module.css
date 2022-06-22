@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.search {
+  width: 300px;
+  height: 20px;
+  margin-right: 200px;
+  padding: 10px;
+}
+
+.button1 {
+  margin: 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: blue;
+  cursor: pointer;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 50;
+    margin: 30px;
+    margin-left: 10px;
+    user-select: none;
+
+}
+
+.burger{
+width: 20px;
+height: 20px;
+position: relative;
+cursor: pointer;
+}
+
+
+.burger::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 20px;
+    background-color: black;
+    height: 2px;
+}
+
+.burger  span{
+    position: absolute;
+    top: 9px;
+    width: 20px;
+    background-color: rgb(19, 16, 16);
+    height: 2px;
+    
+}
+.burger::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    background-color: black;
+    height: 2px;
+}
+
+p{
+  display: inline;
+  margin: 25px;
+}
+
+
+ .active{
+  color :gold;
+  text-decoration: none;
+}
+
+
+.item{
+  color: aqua;
+  text-decoration: none;
+}

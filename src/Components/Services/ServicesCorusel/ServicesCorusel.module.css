@@ -1,0 +1,27 @@
+.main_conteiner{
+    height: 150px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+  }
+  .window{
+    height: 100%;
+    width:100%;
+    overflow: scroll;
+  }
+  
+  .all_pages_conteiner{
+   height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 1000ms;
+    transition-timing-function: ease-in-out;
+   }
+  
+  
+   .arrow{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+   }
